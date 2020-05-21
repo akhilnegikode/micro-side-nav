@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+{
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  },
+    "compilerOptions": {
+      "baseUrl": "./tmp/src-inlined",
+      "outDir": "./dist-npm",
+      "declaration": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
+      "stripInternal" : true,
+      "rootDir":"./tmp/src-inlined",
+      "target": "es2015",
+      "module": "es2015",
+
+      "lib": [
+        "es2017",
+        "dom"
+      ],
+      "types" :[]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "e2e"
+      ], "files" : ["./tmp/src-inlined/index.ts"]
+  }
+=======
+{
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  },
+    "compilerOptions": {
+      "baseUrl": "./tmp/src-inlined",
+      "outDir": "./dist-npm",
+      "declaration": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
+      "stripInternal" : true,
+      "rootDir":"./tmp/src-inlined",
+      "target": "es2015",
+      "module": "es2015",
+
+      "lib": [
+        "es2017",
+        "dom"
+      ],
+      "types" :[]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "e2e"
+      ], "files" : ["./tmp/src-inlined/index.ts"]
+  }
+>>>>>>> 4aecdf404bd7af1c7e209af4ffee92996bd92b7d

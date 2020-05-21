@@ -1,0 +1,43 @@
+<div class="wrapper">
+  <!-- Sidebar -->
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Side Navigation</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+          <p>Heading</p>
+          <li class="active">
+              <a href="#hrSubMenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Human Resources</a>
+              <ul class="collapse list-unstyled" id="hrSubMenu">
+                  <li>
+                      <a routerLink="employees">Employee</a>
+                  </li>
+                  <li>
+                      <a routerLink="departments">Department</a>
+                  </li>
+                  <li>
+                      <a routerLink="shifts">Shift</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">About</a>
+          </li>
+          <li>
+              <a href="#salesSubMenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sales</a>
+              <ul class="collapse list-unstyled" id="salesSubMenu">
+                  <li>
+                      <a routerLink="salesterritories">Sales Territory</a>
+                  </li>
+                  <li>
+                      <a href="#">Page 2</a>
+                  </li>
+                  <li>
+                      <a href="#">Page 3</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+</div>

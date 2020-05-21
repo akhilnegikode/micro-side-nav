@@ -1,0 +1,9 @@
+{
+  "name": "micro-side-nav",
+  "author":"test user",
+  "version": "1.0.4",
+  "license": "MIT",
+   "main": "bundles/micro-side-nav.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts"
+}
